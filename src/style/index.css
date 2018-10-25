@@ -1,0 +1,77 @@
+body, html {
+  height: 100%;
+}
+.bg {
+  /* The image used */
+  background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(20).jpg");
+
+  /* Full height */
+  min-height: 100vh;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fa-star {
+  margin: 0.5em;
+  font-size: 24px;
+  color: #ffbb33;
+}
+
+span {
+  display: inline-block;
+  margin: 0.5em;
+  text-align: center;
+  color: #fff;
+  background-color: #7b0115;
+  width: 24px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.selected {
+  background-color: #eee;
+  color: #ccc;
+  cursor: not-allowed;
+}
+
+.used {
+  background-color: #aaddaa;
+  columns: #99bb99;
+  cursor: not-allowed;
+}
+
+.low {
+  margin-top: 20%
+}
+
+.jumbotron {
+  width: 70%;
+  height: 60%
+}
+
+.warning {
+  background-color: #88b9cf !important;
+}
+
+.drop {
+  margin-top: 20%
+}
+
+.bottom {
+  margin-top: 80px;
+  margin-bottom: -260px;
+  font-size: 70px;
+  color: #06396a
+}
+
+.header {
+  font-size: 30px;
+  color: #06396a
+}
+
+.size {
+  font-size: 27px;
+}
